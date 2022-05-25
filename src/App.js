@@ -1,6 +1,6 @@
 
 import './App.css';
-import Formulario from './components/Formulario';
+import Contador from './components/Contador';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       
         
  
-        <Formulario/>
+        <Contador inicial={2}/>
     </>
   );
 }
