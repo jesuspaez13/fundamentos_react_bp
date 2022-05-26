@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const PruebaPropiedades = ({titulo, cuerpo, cantidad}) => {
   return (
     <>
-    <h1>{titulo}</h1>
+    <h1 id='id_titulo'>{titulo}</h1>
     <h2>{cuerpo}</h2>
     <h3>{cantidad + 5}</h3>
     </>

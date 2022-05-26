@@ -5,7 +5,7 @@ const imagen = 'https://picsum.photos/300'
 const texto_alternativo = 'This is picsum image'
     return(
         <>
-            <h2>{saludo}</h2>
+            <h2 id='saludo'>{saludo}</h2>
             <img src={imagen} alt = {texto_alternativo}/>
         </>
 
